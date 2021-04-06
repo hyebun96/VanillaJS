@@ -15,6 +15,7 @@
 document.getElementById('test-table');
 ~~~
 + 12,137,211 ops/sec
++ 120만 operation을 1초에 처리
 
 ### JavaScript로 만든 Web Site
 + [IMPACT](https://impactjs.com/)
