@@ -8,6 +8,6 @@
  
 #### VanlliaJS 속도
 ~~~
-code : document.getElementById('test-table');
+document.getElementById('test-table');
 ~~~
-12,137,211 ops/sec
++ 12,137,211 ops/sec
