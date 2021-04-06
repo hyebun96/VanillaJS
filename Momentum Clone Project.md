@@ -2,7 +2,5 @@
 
 #### Momentum Site
 
-// code
-Link: [Google][googlelink]
-
-[googlelink]: https://google.com "Go google"
+Link: [Momentum][Momentum Site]
+[Momentum Site]: https://momentumdash.com/ "Go Momentum"
