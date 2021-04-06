@@ -12,6 +12,6 @@
 + Local functions
 
 #### Tools
-[] HTML
-[] CSS
-[] JavaScript
+- [x] HTML
+- [x] CSS
+- [x] JavaScript
