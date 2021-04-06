@@ -7,5 +7,7 @@
 + 용량이 가벼움, 압축을 하는 경우 압축을 하지 않는 경우보다 용량이 더 나감
  
 #### VanlliaJS 속도
-> code : document.getElementById('test-table');
+~~~
+code : document.getElementById('test-table');
+~~~
 12,137,211 ops/sec
