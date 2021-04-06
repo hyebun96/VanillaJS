@@ -2,5 +2,4 @@
 
 #### Momentum Site
 
-Link: [Momentum][Momentum Site]
-[Momentum Site]: https://momentumdash.com/ "Go Momentum"
+Link: [Momentum](https://momentumdash.com/ "Go Momentum")
