@@ -1,6 +1,6 @@
 # VanillaJS
 
-#### VanillaJS
+#### \*\*VanillaJS
 + VanlliaJS 는 자바스크립트 프레임워크
 + 즉, Library가 없는 기본중의 기본
 + [VanillaJS](http://vanilla-js.com/)
