@@ -28,5 +28,5 @@ document.getElementById('test-table');
 + JavaScript : 컴퓨터와 대화할 수 있는 언어
 + ES(ECMA Script) : ECMA-262 기술 규격에 따라 정의하고 있는 표준화된 스크립트 프로그래밍 언어, spectfication(명세서)
 + ES5, ES6는 설명하는 명세서가 다름
- 
+  
   
