@@ -5,6 +5,7 @@
 + 즉, 모든 HTML은 객체가 되는 것
 + 객체는 많은 Key를 갖음
 + 우리가 찾은 객체들의 함수를 DOM형태로 변경
+
 **DOM은 Document(HTML)에 있는 모든 것들이 다 Object(객체)가 되는 것**
 ~~~
 const title = document.getElementById("title");
