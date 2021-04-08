@@ -20,7 +20,7 @@ function 함수명(){}
 + argument를 무한대로 갖을 수 있음
 + argument를 사용하는 것이 외부에 있는 데이터를 읽는 함수를 만드는 방법
 
-**JS에서는 ""와 '' 모두 String을 의미**
+**📢JS에서는 ""와 '' 모두 String을 의미**
 
 ### More Function Fun - 백틱 '__'
 + 백틱을 통해 한 문장으로 정리 가능
