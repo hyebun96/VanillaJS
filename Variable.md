@@ -5,7 +5,7 @@
 2. Initialize
 3. Use
 
-** 변수명을 지정할 떄, camel case를 지킬것 **
+**변수명을 지정할 떄, camel case를 지킬것**
 
 
 ### Variable(변수)의 종류
