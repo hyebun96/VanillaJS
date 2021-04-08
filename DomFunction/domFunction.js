@@ -12,3 +12,14 @@ const title = document.getElementById("title");
 title.innerHTML = "Hi HTML!";
 
 console.log(title);
+
+// Modefying the DOM with JS
+console.dir(title);
+title.style.color ="red";
+
+console.dir(document);
+document.title = "I Own you now";
+
+// document에서 찾는 함수
+const title2 = document.querySelector("#title");
+console.log(title2);
