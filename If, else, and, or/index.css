@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(247, 227, 115);
+}
+
+h1{
+    color: seashell;
+}
+
+/* 
+    css에서 id로 선택할 때는 # 
+    css에서 class로 선택할 때는 .
+*/
+#title{
+    color: blue;
+}
