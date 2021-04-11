@@ -46,4 +46,18 @@ if(20 > 5 || "hyebun" == "hyebun"){
 
 //=======================================
 
-//Prompt
+// Prompt
+// prompt("Ask something");
+
+const age = prompt("How old are you?");
+console.log(age);
+
+if(age > 18 &&  age <= 21){
+    console.log('you can drink but you shold not');
+} else if(age>21){
+    console.log("go ahead");
+} else {
+    console.log('too young');
+}
+
+//=======================================
