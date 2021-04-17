@@ -12,13 +12,16 @@ const title = document.getElementById("title");
 title.innerHTML = "Hi~";
 ~~~
 innerHTML은 title안에 존재하는 method로 title을 DOM형태로 변경
+<br/><br/>
 
 ### getElementById
 + fucntion으로 id에 속하는 element를 가져오는 기능을 하는 함수
+<br/><br/>
 
 ### innerHTML
 + HTML에 넣어주는 것
 + const title로 document에 있는 id="title"을 가져와, HTML의 object인 title에 새로운 값을 넣어 줌
+<br/><br/>
 
 ### Modefying the DOM with JS
 + document
