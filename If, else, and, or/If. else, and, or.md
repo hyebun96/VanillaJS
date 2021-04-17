@@ -15,12 +15,12 @@ if(condition){
 + || : or
 
 ### If 조건문 유형
-true && true = true; <br/>
-false && true = false; <br/>
-true  && false = false; <br/>
-false && fasle = fasle; <br/>
+true && true = true;
+false && true = false;
+true  && false = false;
+false && fasle = fasle;
 
-true || true = true; <br/>
-false || true = false; <br/>
-true  || false = false; <br/>
-false || fasle = fasle; <br/>
+true || true = true;
+false || true = false;
+true  || false = false;
+false || fasle = fasle;
