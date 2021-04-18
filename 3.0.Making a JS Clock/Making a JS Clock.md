@@ -29,7 +29,7 @@ setInterval(fn, 1000)
 <br/><br/>
 
 ### 삼항 조건 연산자
-~~~~
+~~~
 condition ? exprIfTrue : exprIfFalse 
 ~~~
 + If 의 단축형태
