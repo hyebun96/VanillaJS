@@ -12,6 +12,7 @@ setInterval(fn, 1000)
 + clearInterval 함수를 사용하여 중지할 수 있음
 + 🔥 주의할 점은 일정한 시간 간격으로 실행되는 작업이 그 시간 간격보다 오래걸리는 문제 발생할 수 있다.
 <br/>
+
 ![setInterval](./setInterval.PNG)
 <br/><br/>
 
