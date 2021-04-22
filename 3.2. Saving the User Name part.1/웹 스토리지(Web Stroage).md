@@ -8,7 +8,6 @@
 
 ---
 
-[웹 스토리지](https://www.notion.so/466705adcb284bc3a7cc5eda13857f03)
 
 - 공통점
 
@@ -51,8 +50,6 @@ localStorage.length
 > localStorage.removeItem('email'); // undefined
 > localStorage.getItem('email'); // null
 ~~~
-
-[https://www.daleseo.com/js-web-storage/](https://www.daleseo.com/js-web-storage/)
 
 ### 주의사항
 
