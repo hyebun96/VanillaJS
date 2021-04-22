@@ -35,5 +35,5 @@ element.outerHTML = htmlString;
 const renderedText = htmlElement.outerText;
 htmlElement.outerText = string;
 ~~~
-+즉, 내용을 바꾸되 새로운 태그는 넣을 수 없고 다만 텍스트만 넣을 수 있음
++ 즉, 내용을 바꾸되 새로운 태그는 넣을 수 없고 다만 텍스트만 넣을 수 있음
 <br/><br/>
