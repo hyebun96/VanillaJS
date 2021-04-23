@@ -1,0 +1,16 @@
+body{
+    background-color : #ecf0f1;
+}
+
+.clicked {
+    color : #7f8c8d;
+}
+
+.form,
+.greeting {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
