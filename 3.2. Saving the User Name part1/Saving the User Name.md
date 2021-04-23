@@ -16,9 +16,9 @@
 + 없는 값은 null로뜸 (undefined와 동일)
 
 ![Storage1](./Storage1.PNG)
-<br/>
 
 + 저장된 값 확인
+
 ![Storage2](./Storage2.PNG)
 <br/>
 
