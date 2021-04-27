@@ -4,15 +4,31 @@ const toDoForm = document.querySelector(".js-toDoForm"),
 
 const TODOS_LS = "toDos";
 
+const toDos = [];
+
+function saveToDos(){
+    localStorage.setItem(TODOS_LS,  JSON.stringify(toDos));
+}
+
 function paintToDo(text){
     const li = document.createElement("li");
     const delBtn = document.createElement("button");
-    delBtn.innerText = "❌";
     const span = document.createElement("span");
+    const newId = toDos.length + 1; // id 주기
+
+    delBtn.innerText = "❌";
     span.innerText = text;
     li.appendChild(span);
     li.appendChild(delBtn);
+    li.id = newId;
+
     toDoList.appendChild(li);
+    const toDoObj = {
+        text : text,
+        id : newId
+    };
+    toDos.push(toDoObj);
+    saveToDos();
 }
 
 function handleSubmit(event){
@@ -23,9 +39,14 @@ function handleSubmit(event){
 }
 
 function loadToDos(){
-    const toDos = localStorage.getItem(TODOS_LS);
-    if(toDos !== null){
-
+    const loadToDos = localStorage.getItem(TODOS_LS);
+    if(loadToDos !== null){
+        const parsedToDos = JSON.parse(loadToDos);
+        
+        // 화면상 parsedToDos 뿌려줘야함
+        parsedToDos.forEach(function(toDo){
+            paintToDo(toDo.text);
+        });
     }
 }
 

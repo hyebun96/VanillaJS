@@ -24,3 +24,20 @@ let element = document.createElement(tagName[, options]);
 ~~~
 + tagName : 생성할 요소의 유형을 가리키는 문자열
 + option : is 속성 하나를 가진 ElementCreationOptions객체 속성의 값은 customElements.define()을 사용해 정의한 사용자 정의 요소
+<br/>
+
+### LocalStorage
++ local storage에는 자바스크립트의 data를 저장할 수 ❌
++ 오로지 String 만 저장 가능
++ Object또한 String으로 변경해 주어여함
++ stringify : 자바스크립트의 Object를 String으로 변경
+~~~
+JSON.stringify([Object]);
+~~~
+<br/>
+
+### JSON
++ Javascript Object Notation
++ 데이터를 전달할때, 자바스크립트가 그걸 다룰 수 있도록 Object로 바꿔주는 기능
++ Object를 String으로 변환해 주기도 함
++ String을 Object로 변환해 주기도 함
