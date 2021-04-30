@@ -41,3 +41,17 @@ JSON.stringify([Object]);
 + 데이터를 전달할때, 자바스크립트가 그걸 다룰 수 있도록 Object로 바꿔주는 기능
 + Object를 String으로 변환해 주기도 함
 + String을 Object로 변환해 주기도 함
+<br/>
+
+### Node.removeChild()
+~~~
+var oldChild = node.removeChild(child);
+~~~
++ Dom에 있는 자식노드를 지워줌
++ node는 자식의 부모이다
++ oldChild는 제거된 자식 노드를 참조함
+<br/>
+
+### filter 
++ array의 모든 아이템을 통해 함수를 실행하고 
++  true아이템만 가지고 array를 만듬
