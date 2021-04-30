@@ -1,4 +1,4 @@
-# Making a To Do List part1
+# Making a To Do List
 
 ### Node.appendChild()
 + 메소드는 한 노드를 특정 부모 노드의 자식 노드 리스트 중 마지막 자식으로 붙임
@@ -9,7 +9,7 @@ var aChild = element.appendChild(aChild);
 ~~~
 <br/>
 
-### 예시
+#### 예시
 ~~~
 // 새로운 단락 요소를 생성하고 문서에 있는 바디 요소의 끝에 붙입니다.
 var p = document.createElement("p");
@@ -52,6 +52,44 @@ var oldChild = node.removeChild(child);
 + oldChild는 제거된 자식 노드를 참조함
 <br/>
 
-### filter 
+### Array.prototype.filter()
 + array의 모든 아이템을 통해 함수를 실행하고 
 +  true아이템만 가지고 array를 만듬
+~~~
+arr.filter(callback(element[, index[, array]])[, thisArg])
+~~~
++ callback : 각 요소를 시험할 함수. true를 반환하면 요소를 유지하고, false를 반환하면 버린다.
++ element : 처리할 현재요소
++ index : 처리할 현재 요소의 인덱스
++ array : filter를 호출한 배열
++ thisArg : callback을 실행할때, this로 사용하는 값
+<br/>
+
+#### 예시
+~~~
+const words = ['spray', 'limit', 'elite', 'exuberant','destruction', 'present'];
+
+const result = words.filter(word => word.length > 6);
+
+console.log(result);
+// expected output: Array ["exuberant", "destruction", "present"]  
+~~~
+<br/>
+
+### Array.ptototype.forEach()
++ 주어진 함수를 배열 요소 각각에 대해 실행
+~~~
+arr.forEach(callback(currentvalue[, index[, array]])[, thisArg])
+~~~
+<br/>
+
+#### 예시
+~~~
+const array1 = ['a', 'b', 'c'];
+
+array1.forEach(element => console.log(element));
+
+// expected output: "a"
+// expected output: "b"
+// expected output: "c"
+~~~
