@@ -43,3 +43,14 @@
 + 안에는 데이터가 들어가면 됌
 + http://를 넣어줌
 + ❗ 주의 : 따옴표가 아닌 backtick(`)을 사용할 것
+
+#### then() 
++ then() 메서드는 Promise를 리턴하고 두개의 콜백 함수를 인수로 받음
++ 하나는 Promise가 이행했을 때, 다른하나는 거부했을 때를 위한 콜백함수
+~~~
+p.then(function(value) {
+  // 이행
+}, function(reason) {
+  // 거부
+});
+~~~
