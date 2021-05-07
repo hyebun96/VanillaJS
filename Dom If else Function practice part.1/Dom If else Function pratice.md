@@ -2,9 +2,11 @@
 
 ### init
 - 어플리케이션을 initialize(초기화)함
+<br/>
 
 ### 색상 Site
-- site : flatuicolors.com
+- site : ![flatuicolors](flatuicolors.com)
+<br/>
 
 ### Event type
 - click : mouse double click
