@@ -13,6 +13,7 @@ if(condition){
 + 피연산자란 다른 조건들을 합치는것
 + && : and
 + || : or
+<br/>
 
 ### If 조건문 유형
 true && true = true;
