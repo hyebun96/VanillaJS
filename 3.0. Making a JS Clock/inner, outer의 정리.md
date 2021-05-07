@@ -9,7 +9,7 @@ element.innerHTML = htmlString;
 <script type="text/javascript">
 	alert(document.getElementById("test").innerHTML); // 결과는 TEST
 </script>
-~~~+
+~~~
 + 지정한 요소 태그를 제외한 안쪽 태그만 값을 가져온다. 자기자신 미포함
 + HTML에 넣어주는 것
 + const title로 document에 있는 id="title"을 가져와, HTML의 object인 title에 새로운 값을 넣어 줌
