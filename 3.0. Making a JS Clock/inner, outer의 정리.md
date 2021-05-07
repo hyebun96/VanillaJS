@@ -15,7 +15,6 @@ element.innerHTML = htmlString;
 + const title로 document에 있는 id="title"을 가져와, HTML의 object인 title에 새로운 값을 넣어 줌
 + 즉, 새로운 태그를 그 안에 넣을 수 있음
 <br/>
-<br/>
 
 ### innerText
 ~~~
@@ -25,7 +24,6 @@ htmlElement.innerText = string;
 + HTMLElement 인터페이스의 innerText속성은 요소와 그 자손의 렌더링 된 텍스트 콘텐츠를 나타냄
 + innerText는 사용자가 커서를 이용해 요소의 콘텐츠를 선택하고 클립보드에 복사했을 때 얻을 수 있는 텍스트의 근삿값을 제공
 + 즉, 단순히 텍스트만 넣을 수 있음
-<br/>
 <br/>
 
 ### outerHTML
@@ -43,7 +41,6 @@ element.outerHTML = htmlString;
 + 주어진 문자열에서 파싱한 노드로 요소를 대체
 +즉, 아예 태그까지 변경
 <br/>
-<br/>
 
 ### outerText
 ~~~
@@ -51,7 +48,6 @@ const renderedText = htmlElement.outerText;
 htmlElement.outerText = string;
 ~~~
 + 즉, 내용을 바꾸되 새로운 태그는 넣을 수 없고 다만 텍스트만 넣을 수 있음
-<br/>
 <br/>
 
 ### Element.insertAdjacentHTML()
@@ -61,16 +57,19 @@ htmlElement.outerText = string;
 + 그러므로 element안에 존재하는 element를 건드리지 않음
 + innerHTML보다 작업이 덜 듬으로 빠르다.
 
-####  insertAdjacentHTML 구문 & position
+####  insertAdjacentHTML 구문 
 ~~~
 element.insertAdjacentHTML(position, text);
 ~~~
-(1) position
-  + 'beforebegin' : element 앞에
-  + 'afterbegin'  : element안에 가장 첫번째 child
-  + 'beforeend'   : element안에 가장 마지막 child
-  + 'afterend'    : element뒤에
-(2) text(인자)는 HTML 또는 XML로 해석될 수 있는 문자열이고(html code), (DOM) tree 삽입 가능
+<br/>
+
+#### insertAdjacentHTML position
++ 'beforebegin' : element 앞에
++ 'afterbegin'  : element안에 가장 첫번째 child
++ 'beforeend'   : element안에 가장 마지막 child
++ 'afterend'    : element뒤에
+
+\*\*text(인자)는 HTML 또는 XML로 해석될 수 있는 문자열이고(html code), (DOM) tree 삽입 가능\*\*
 ~~~
 <!-- beforebegin -->
 <p>
@@ -80,8 +79,9 @@ foo
 </p>
 <!-- afterend -->
 ~~~
-<br/><br/>
+<br/>
 
+#### insertAdjacentHTML 예시
 ~~~
 // <div id="one">one</div>
 var d1 = document.getElementById('one');
