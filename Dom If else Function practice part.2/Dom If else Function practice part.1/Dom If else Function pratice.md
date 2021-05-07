@@ -25,6 +25,7 @@ if(elm.className == 'active'){
 <br/><br/>
 
 ### Elemnet.classList
++ 간단하게 말하면 하나의 태그에 다중의 class를 넣을 수 있음으로 classList를 통해 다중으로 삽입하고 삭제할 수있는 프로퍼티
 + classList는 엘리먼트의 클래스 속성의 컬렉션인 활성 DOMTokenList를 반환하는 읽기 전용 프로퍼티
 + classList 사용은 공백으로 구분된 문자열인 element.className을 통해 엘리먼트의 클래스 목록에 접근하는 방식을 대체하는 간편한 방법
 ~~~
