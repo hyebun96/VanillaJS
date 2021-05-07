@@ -3,14 +3,19 @@
 ### Fucntion
 + 어떤것의 기능의 기능
 + 함수는 어떤 걸 수행하려는 한 부분
+<br/>
 
-### JS 내장함수(Built-in funciton)
+#### JS 내장함수(Built-in funciton)
 + console는 Object /  log는 Fucntion
 + alert
+<br/>
 
-### Function의 특징
+#### Function의 특징
 + 원하는 만큼 사용가능
 + 함수를 정의 할 때
+<br/>
+
+#### Function 문법
 ~~~
 function 함수명(){}
 ~~~
@@ -19,8 +24,9 @@ function 함수명(){}
 + argument는 변수를 의미, 함수 안에서 사용할 이름을 뜻함
 + argument를 무한대로 갖을 수 있음
 + argument를 사용하는 것이 외부에 있는 데이터를 읽는 함수를 만드는 방법
-
+<br/>
 **📢 JS에서는 ""와 '' 모두 String을 의미**
+<br/>
 
-### More Function Fun - 백틱 '__'
+#### More Function Fun - 백틱 '__'
 + 백틱을 통해 한 문장으로 정리 가능
