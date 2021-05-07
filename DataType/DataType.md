@@ -11,7 +11,7 @@
     + 숫자
 + Float
     +소수
-
+<br/>
 
 ### Organizing Data with Array
 + Array
@@ -19,7 +19,7 @@
     + 리스트와 같이 저장
     + [] 부호로 감싸고 선언
     + 변수안에 변수를 넣어도 가능
-
+<br/>
 
 ### Organizing Data with Object
 + Object
