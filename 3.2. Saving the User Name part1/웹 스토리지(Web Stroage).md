@@ -35,7 +35,7 @@ localStorage.length
 ~~~
 <br/>
 
-/*/* 엄밀하게는 window.localStorage를 사용해야 하지만, window객체의 대부분의 속성이 그러하듯, 줄여서 localStorage로 로컬 스토리지 객체에 접근 가능 /*/*
+<strong> 엄밀하게는 window.localStorage를 사용해야 하지만, window객체의 대부분의 속성이 그러하듯, 줄여서 localStorage로 로컬 스토리지 객체에 접근 가능 <strong/>
 
 
 ~~~
