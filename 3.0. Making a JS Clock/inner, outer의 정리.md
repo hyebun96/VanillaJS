@@ -69,7 +69,7 @@ element.insertAdjacentHTML(position, text);
 + 'beforeend'   : element안에 가장 마지막 child
 + 'afterend'    : element뒤에
 
-\*\*text(인자)는 HTML 또는 XML로 해석될 수 있는 문자열이고(html code), (DOM) tree 삽입 가능\*\*
+\*\* text(인자)는 HTML 또는 XML로 해석될 수 있는 문자열이고(html code), (DOM) tree 삽입 가능 \*\*
 ~~~
 <!-- beforebegin -->
 <p>
