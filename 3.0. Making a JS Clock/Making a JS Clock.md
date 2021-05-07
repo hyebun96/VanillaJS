@@ -23,6 +23,7 @@ setInterval(fn, 1000)
 + 재귀적 호출을 사용하여 작업을 반복
 + 기본적으로 setInterval과는 달리 지정된 시간을 기다린 후, 작업을 수행하고 다시 일정한 시간을 기다린 후 작업을 수행하는 방식
 + 지정된 시간 사이에 작업시간이 추가되는 것
++ clearTimeout() 을 사용해서 작업을 중지
 <br/><br/>
 
 ### clearInterval, clearTimeout
