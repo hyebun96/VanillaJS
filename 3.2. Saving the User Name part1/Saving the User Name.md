@@ -1,8 +1,8 @@
-# Saving the User Name part1
+# Saving the User Name
 사용자 이름을 저장하는 방법
+<br/>
 
 ### getElementByTagName
-
 태그를 가져오는 것
 
 + input
@@ -10,6 +10,7 @@
 + html
 + div
 + section 
+<br/>
 
 ## 로컬스토리지 이용해 값을 저장하고 가져오기
 + 값을 localstorage에 저장하고, 가져오기
